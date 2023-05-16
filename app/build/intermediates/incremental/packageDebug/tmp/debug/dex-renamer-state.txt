@@ -1,4 +1,4 @@
-#Tue May 16 14:39:27 IRST 2023
+#Tue May 16 14:42:03 IRST 2023
 base.0=G\:\\Android Project\\Truelearn\\digikala\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=G\:\\Android Project\\Truelearn\\digikala\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=G\:\\Android Project\\Truelearn\\digikala\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
