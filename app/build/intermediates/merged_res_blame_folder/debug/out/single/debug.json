@@ -4,8 +4,16 @@
         "source": "com.ghores.digikalacompose.app-main-67:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.ghores.digikalacompose.app-merged_res-65:/xml_data_extraction_rules.xml.flat",
-        "source": "com.ghores.digikalacompose.app-main-67:/xml/data_extraction_rules.xml"
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_cart_fill.png.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/drawable/cart_fill.png"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_digi_red_persian.png.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/drawable/digi_red_persian.png"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/raw_loading3dotsdark.json.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/raw/loading3dotsdark.json"
     },
     {
         "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-xhdpi_ic_launcher.webp.flat",
@@ -16,20 +24,28 @@
         "source": "com.ghores.digikalacompose.app-main-67:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_category_outline.png.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/drawable/category_outline.png"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_user_fill.png.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/drawable/user_fill.png"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_home_outline.png.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/drawable/home_outline.png"
+    },
+    {
         "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.ghores.digikalacompose.app-main-67:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.ghores.digikalacompose.app-main-67:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_home_fill.png.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/drawable/home_fill.png"
     },
     {
-        "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.ghores.digikalacompose.app-main-67:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.ghores.digikalacompose.app-main-67:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_digi_txt_white.png.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/drawable/digi_txt_white.png"
     },
     {
         "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable-v24_ic_launcher_foreground.xml.flat",
@@ -40,27 +56,71 @@
         "source": "com.ghores.digikalacompose.app-main-67:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_category_fill.png.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/drawable/category_fill.png"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/xml_data_extraction_rules.xml.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_cart_outline.png.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/drawable/cart_outline.png"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/raw_loading3dots.json.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/raw/loading3dots.json"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_user_outline.png.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/drawable/user_outline.png"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_digi_logo.jpg.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/drawable/digi_logo.jpg"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
         "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "com.ghores.digikalacompose.app-main-67:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_search.png.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/drawable/search.png"
     },
     {
         "merged": "com.ghores.digikalacompose.app-merged_res-65:/xml_backup_rules.xml.flat",
         "source": "com.ghores.digikalacompose.app-main-67:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.ghores.digikalacompose.app-main-67:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
         "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_ic_launcher_background.xml.flat",
         "source": "com.ghores.digikalacompose.app-main-67:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.ghores.digikalacompose.app-main-67:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/drawable_digi_red_english.xml.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/drawable/digi_red_english.xml"
     },
     {
-        "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.ghores.digikalacompose.app-main-67:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.ghores.digikalacompose.app-merged_res-65:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ghores.digikalacompose.app-main-67:/mipmap-xhdpi/ic_launcher_round.webp"
     }
 ]
