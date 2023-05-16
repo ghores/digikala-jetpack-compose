@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [com.airbnb.android:lottie-compose:5.2.0] C:\Users\ghazi\.gradle\caches\transforms-3\1783418bc69dab11d6e7c5ffb493b438\transformed\jetified-lottie-compose-5.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [io.coil-kt:coil-compose:2.3.0] C:\Users\ghazi\.gradle\caches\transforms-3\b7334a63e29c73c2047a7a9f4c29ed3a\transformed\jetified-coil-compose-2.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.accompanist:accompanist-swiperefresh:0.30.0] C:\Users\ghazi\.gradle\caches\transforms-3\1e1cd22e82589590571025f3cba4b847\transformed\jetified-accompanist-swiperefresh-0.30.0\AndroidManifest.xml:17:1-25:12
@@ -90,27 +90,31 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ghazi\.gradle\caches\trans
 MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\ghazi\.gradle\caches\transforms-3\2157f1de309e350ff8df970386ea6da9\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ghazi\.gradle\caches\transforms-3\9284428149bb980e90372070040b2125\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.45] C:\Users\ghazi\.gradle\caches\transforms-3\710eeb663986a18ae5f93bb944ad3788\transformed\jetified-dagger-lint-aar-2.45\AndroidManifest.xml:16:1-19:12
-INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:6:5-28:19
 MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\ghazi\.gradle\caches\transforms-3\f1f4847a9cd3e630e4a468d3eba4d7c1\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\ghazi\.gradle\caches\transforms-3\f1f4847a9cd3e630e4a468d3eba4d7c1\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ghazi\.gradle\caches\transforms-3\99791759a61b116755bed313c07fa036\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
@@ -134,43 +138,45 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ghazi\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.1] C:\Users\ghazi\.gradle\caches\transforms-3\edab3e1cfb3ce41f92ac1c7f12944813\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:11:9-41
 	android:fullBackupContent
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:9:9-54
 	android:roundIcon
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:12:9-54
 	tools:targetApi
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:13:9-53
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:14:9-53
 	android:dataExtractionRules
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:7:9-65
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:8:9-65
+	android:usesCleartextTraffic
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:15:9-44
 activity#com.ghores.digikalacompose.MainActivity
-ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:15:9-25:20
+ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:17:9-27:20
 	android:label
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:20:13-45
 	android:exported
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:19:13-36
 	android:theme
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:19:13-57
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:21:13-57
 	android:name
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml:25:27-74
 uses-sdk
 INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from G:\Android Project\Truelearn\digikala\app\src\main\AndroidManifest.xml
