@@ -8,6 +8,7 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import com.ghores.digikalacompose.navigation.BottomNavigationBar
 import com.ghores.digikalacompose.navigation.SetupNavGraph
 import com.ghores.digikalacompose.ui.theme.DigikalaComposeTheme
 
@@ -25,7 +26,9 @@ class MainActivity : ComponentActivity() {
 
                 Scaffold(
                     bottomBar = {
-
+                    BottomNavigationBar(navController = navController, onItemClick = {
+                        navController.navigate(it.route)
+                    })
                     }
                 ) {
                     SetupNavGraph(navController = navController)
