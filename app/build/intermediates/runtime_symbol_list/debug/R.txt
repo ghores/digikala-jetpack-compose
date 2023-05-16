@@ -701,6 +701,9 @@ int drawable tooltip_frame_dark 0x7f070078
 int drawable tooltip_frame_light 0x7f070079
 int drawable user_fill 0x7f07007a
 int drawable user_outline 0x7f07007b
+int font iranyekan 0x7f120000
+int font iranyekanbold 0x7f120001
+int font iranyekanmedium 0x7f120002
 int id ALT 0x7f080000
 int id CTRL 0x7f080001
 int id FUNCTION 0x7f080002

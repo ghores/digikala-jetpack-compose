@@ -22,6 +22,9 @@ drawable ic_launcher_foreground
 drawable search
 drawable user_fill
 drawable user_outline
+font iranyekan
+font iranyekanbold
+font iranyekanmedium
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw loading3dots
