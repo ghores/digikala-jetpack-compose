@@ -6,8 +6,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.BottomNavigation
 import androidx.compose.material.BottomNavigationItem
 import androidx.compose.material.Icon
-import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment.Companion.CenterHorizontally
 import androidx.compose.ui.Modifier
@@ -19,8 +19,9 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import com.ghores.digikalacompose.R
-import com.ghores.digikalacompose.ui.theme.selectedBottomBar
-import com.ghores.digikalacompose.ui.theme.unSelectedBottomBar
+import com.ghores.digikalacompose.ui.theme.SelectedBottomBar
+import com.ghores.digikalacompose.ui.theme.UnSelectedBottomBar
+
 
 @Composable
 fun BottomNavigationBar(
@@ -69,8 +70,8 @@ fun BottomNavigationBar(
             items.forEachIndexed { _, item ->
                 val selected = item.route == backStackEntry.value?.destination?.route
                 BottomNavigationItem(selected = selected, onClick = { onItemClick(item) },
-                    selectedContentColor = MaterialTheme.colors.selectedBottomBar,
-                    unselectedContentColor = MaterialTheme.colors.unSelectedBottomBar,
+                    selectedContentColor = SelectedBottomBar,
+                    unselectedContentColor = UnSelectedBottomBar,
                     icon = {
                         Column(horizontalAlignment = CenterHorizontally) {
                             if (selected) {
@@ -89,7 +90,7 @@ fun BottomNavigationBar(
                             Text(
                                 text = item.name,
                                 textAlign = TextAlign.Center,
-                                style = androidx.compose.material3.MaterialTheme.typography.titleSmall,
+                                style = MaterialTheme.typography.titleLarge,
                                 fontWeight = FontWeight.Bold,
                                 modifier = Modifier.padding(top = 5.dp)
                             )

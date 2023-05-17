@@ -7,7 +7,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
@@ -19,7 +18,7 @@ import androidx.navigation.NavHostController
 import com.ghores.digikalacompose.R
 import com.ghores.digikalacompose.navigation.Screen
 import com.ghores.digikalacompose.ui.components.Loading3Dots
-import com.ghores.digikalacompose.ui.theme.splashBg
+import com.ghores.digikalacompose.ui.theme.SplashBg
 import kotlinx.coroutines.delay
 
 @Composable
@@ -35,7 +34,7 @@ fun SplashScreen(navController: NavHostController) {
 fun Splash() {
     Box(
         modifier = Modifier
-            .background(MaterialTheme.colors.splashBg)
+            .background(SplashBg)
             .fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {

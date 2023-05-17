@@ -44,37 +44,37 @@ val Typography = Typography(
         letterSpacing = 0.5.sp
     ),
 
-    headlineLarge = TextStyle(
+    displayLarge = TextStyle(
         fontFamily = font_standard,
         fontWeight = FontWeight.Medium,
         fontSize = 20.sp,
         lineHeight = 25.sp
     ),
-    headlineMedium = TextStyle(
+    displayMedium = TextStyle(
         fontFamily = font_standard,
         fontWeight = FontWeight.Medium,
         fontSize = 18.sp,
         lineHeight = 25.sp
     ),
-    headlineSmall = TextStyle(
+    displaySmall = TextStyle(
         fontFamily = font_standard,
         fontWeight = FontWeight.Medium,
         fontSize = 16.sp,
         lineHeight = 25.sp
     ),
-    titleLarge = TextStyle(
+    headlineMedium = TextStyle(
         fontFamily = font_standard,
         fontWeight = FontWeight.Medium,
         fontSize = 15.sp,
         lineHeight = 25.sp
     ),
-    titleMedium = TextStyle(
+    headlineSmall = TextStyle(
         fontFamily = font_standard,
         fontWeight = FontWeight.Medium,
         fontSize = 14.sp,
         lineHeight = 25.sp
     ),
-    titleSmall = TextStyle(
+    titleLarge = TextStyle(
         fontFamily = font_standard,
         fontWeight = FontWeight.Medium,
         fontSize = 12.sp,
