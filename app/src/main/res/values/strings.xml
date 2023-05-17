@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DigikalaCompose</string>
+    <string name="home">خانه</string>
+    <string name="category">دسته‌بندی‌ها</string>
+    <string name="basket">سبد ‌خرید</string>
+    <string name="my_digikala">دیجی‌کالای من</string>
+    <string name="search_in">جستجو در</string>
 </resources>

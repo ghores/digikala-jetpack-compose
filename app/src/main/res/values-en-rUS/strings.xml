@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DigikalaCompose</string>
+    <string name="home">home</string>
+    <string name="category">categories</string>
+    <string name="basket">basket</string>
+    <string name="my_digikala">my digikala</string>
+    <string name="search_in">search in</string>
+</resources>
