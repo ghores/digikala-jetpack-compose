@@ -3,10 +3,10 @@ digikala app with Jetpack Compose
 
 the technologies used in this project consist of:
 
-1-kotlin,
+1-kotlin
 
-Jetpack compose ,
-Flow ,
+2-Jetpack compose
+3-Flow 
 coroutines,
 Retrofit,
 Hilt,
