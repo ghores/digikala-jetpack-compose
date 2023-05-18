@@ -2,7 +2,6 @@ package com.ghores.digikalacompose
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -18,7 +17,6 @@ import com.ghores.digikalacompose.navigation.SetupNavGraph
 import com.ghores.digikalacompose.ui.components.AppConfig
 import com.ghores.digikalacompose.ui.theme.DigikalaComposeTheme
 import com.ghores.digikalacompose.util.Constants.ENGLISH_LANG
-import com.ghores.digikalacompose.util.Constants.PERSIAN_LANG
 import com.ghores.digikalacompose.util.Constants.USER_LANGUAGE
 import com.ghores.digikalacompose.util.LocaleUtils
 import dagger.hilt.android.AndroidEntryPoint
