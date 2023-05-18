@@ -74,10 +74,10 @@ fun BottomNavigationBar(
             items.forEachIndexed { _, item ->
                 val selected = item.route == backStackEntry.value?.destination?.route
                 BottomNavigationItem(selected = selected, onClick = { onItemClick(item) },
-                    selectedContentColor = if (isSystemInDarkTheme()) SelectedBottomBarLight
-                    else SelectedBottomBarDark,
-                    unselectedContentColor = if (isSystemInDarkTheme()) UnSelectedBottomBarLight
-                    else UnSelectedBottomBarDark,
+                    selectedContentColor = if (isSystemInDarkTheme()) SelectedBottomBarDark
+                    else SelectedBottomBarLight,
+                    unselectedContentColor = if (isSystemInDarkTheme()) UnSelectedBottomBarDark
+                    else UnSelectedBottomBarLight,
                     icon = {
                         Column(horizontalAlignment = CenterHorizontally) {
                             if (selected) {
