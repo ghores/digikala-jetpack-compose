@@ -1,5 +1,6 @@
 package com.ghores.digikalacompose.navigation
 
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -20,8 +21,10 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import com.ghores.digikalacompose.R
-import com.ghores.digikalacompose.ui.theme.SelectedBottomBar
-import com.ghores.digikalacompose.ui.theme.UnSelectedBottomBar
+import com.ghores.digikalacompose.ui.theme.SelectedBottomBarDark
+import com.ghores.digikalacompose.ui.theme.SelectedBottomBarLight
+import com.ghores.digikalacompose.ui.theme.UnSelectedBottomBarDark
+import com.ghores.digikalacompose.ui.theme.UnSelectedBottomBarLight
 
 
 @Composable
@@ -71,8 +74,10 @@ fun BottomNavigationBar(
             items.forEachIndexed { _, item ->
                 val selected = item.route == backStackEntry.value?.destination?.route
                 BottomNavigationItem(selected = selected, onClick = { onItemClick(item) },
-                    selectedContentColor = SelectedBottomBar,
-                    unselectedContentColor = UnSelectedBottomBar,
+                    selectedContentColor = if (isSystemInDarkTheme()) SelectedBottomBarLight
+                    else SelectedBottomBarDark,
+                    unselectedContentColor = if (isSystemInDarkTheme()) UnSelectedBottomBarLight
+                    else UnSelectedBottomBarDark,
                     icon = {
                         Column(horizontalAlignment = CenterHorizontally) {
                             if (selected) {

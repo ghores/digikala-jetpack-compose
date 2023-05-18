@@ -1,7 +1,5 @@
 package com.ghores.digikalacompose.ui.theme
 
-import androidx.compose.material3.ColorScheme
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
 val Purple80 = Color(0xFFD0BCFF)
@@ -13,23 +11,11 @@ val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
 val SplashBg = Color(0xFFED1b34)
-val SelectedBottomBar = Color(0xFF43474C)
-val UnSelectedBottomBar = Color(0xFFA4A1A1)
+val SelectedBottomBarLight = Color(0xFF43474C)
+val UnSelectedBottomBarLight = Color(0xFFA4A1A1)
 
-
-/*val ColorScheme.splashBg: Color
-    @Composable
-    get() = Color(0xFFED1B34)
-
-val ColorScheme.selectedBottomBar: Color
-    @Composable
-    get() = Color(0xFF43474C)
-
-val ColorScheme.unSelectedBottomBar: Color
-    @Composable
-    get() = Color(0xFFA4A1A1)*/
-
-
+val SelectedBottomBarDark = Color(0xFFCFD4DA)
+val UnSelectedBottomBarDark = Color(0xFF575A5E)
 
 /*
 val Colors.splashBg: Color
