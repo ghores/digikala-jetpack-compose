@@ -1,4 +1,4 @@
 package com.ghores.digikalacompose.data.remote
 
-interface ApiInterface {
+interface HomeApiInterface {
 }

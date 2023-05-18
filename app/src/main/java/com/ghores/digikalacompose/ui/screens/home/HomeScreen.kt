@@ -1,4 +1,4 @@
-package com.ghores.digikalacompose.ui.screens
+package com.ghores.digikalacompose.ui.screens.home
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable

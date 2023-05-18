@@ -1,6 +1,6 @@
 package com.ghores.digikalacompose.di
 
-import com.ghores.digikalacompose.data.remote.ApiInterface
+import com.ghores.digikalacompose.data.remote.HomeApiInterface
 import com.ghores.digikalacompose.util.Constants.BASE_URL
 import com.ghores.digikalacompose.util.Constants.TIMEOUT_IN_SECOND
 import dagger.Module
@@ -43,9 +43,4 @@ object NetworkModule {
             .addConverterFactory(GsonConverterFactory.create())
             .client(okHttpClient)
             .build()
-
-    @Singleton
-    @Provides
-    fun provideApiService(retrofit: Retrofit): ApiInterface =
-        retrofit.create(ApiInterface::class.java)
 }
