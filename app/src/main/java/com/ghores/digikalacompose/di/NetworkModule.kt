@@ -1,6 +1,5 @@
 package com.ghores.digikalacompose.di
 
-import com.ghores.digikalacompose.data.remote.HomeApiInterface
 import com.ghores.digikalacompose.util.Constants.API_KEY
 import com.ghores.digikalacompose.util.Constants.BASE_URL
 import com.ghores.digikalacompose.util.Constants.TIMEOUT_IN_SECOND
